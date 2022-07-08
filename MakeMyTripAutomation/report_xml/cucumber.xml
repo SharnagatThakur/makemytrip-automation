@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="39.806069">
+    <testcase classname="One Way Trip Search Functionality" name="User should be able to search for flights for one way trip" time="39.806069">
+        <system-out><![CDATA[When User navigates to MakeMyTrip URL.......................................passed
+Then User should be able to remove any pop ups on the home page.............passed
+Then User should be able provide From City input field......................passed
+And User should be able provide To City input field.........................passed
+And User should be able to provide departure date...........................passed
+And User clicks on the search button........................................passed
+Then User should be landed to search page with flight details...............passed
+]]></system-out>
+    </testcase>
+</testsuite>

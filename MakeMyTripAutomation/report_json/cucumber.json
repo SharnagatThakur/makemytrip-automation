@@ -1,0 +1,106 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "User should be able to search for flights for one way trip",
+        "description": "",
+        "id": "one-way-trip-search-functionality;user-should-be-able-to-search-for-flights-for-one-way-trip",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 13533776589,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User navigates to MakeMyTrip URL",
+            "match": {
+              "location": "SD_OneWayTrip.user_navigates_to_MakeMyTrip_URL()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 530781749,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User should be able to remove any pop ups on the home page",
+            "match": {
+              "location": "SD_OneWayTrip.user_should_be_able_to_remove_any_pop_ups_on_the_home_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 6445654511,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User should be able provide From City input field",
+            "match": {
+              "location": "SD_OneWayTrip.user_should_be_able_provide_From_City_input_field()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 4957358796,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User should be able provide To City input field",
+            "match": {
+              "location": "SD_OneWayTrip.user_should_be_able_provide_To_City_input_field()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1059300055,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User should be able to provide departure date",
+            "match": {
+              "location": "SD_OneWayTrip.user_should_be_able_to_provide_departure_date()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 9369434849,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User clicks on the search button",
+            "match": {
+              "location": "SD_OneWayTrip.user_clicks_on_the_search_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3909762811,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User should be landed to search page with flight details",
+            "match": {
+              "location": "SD_OneWayTrip.user_should_be_landed_to_search_page_with_flight_details()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "One Way Trip Search Functionality",
+    "description": "",
+    "id": "one-way-trip-search-functionality",
+    "keyword": "Feature",
+    "uri": "src/main/resources/features/Feature_OneWayTrip.feature"
+  }
+]
